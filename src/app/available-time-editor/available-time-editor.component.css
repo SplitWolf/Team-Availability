@@ -1,0 +1,12 @@
+.mycontainer {
+  background: #1c1c1c;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  color: white;
+}
