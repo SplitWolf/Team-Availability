@@ -1,0 +1,50 @@
+$title-height: 2em;
+$days-height: 2em;
+$time-width: 3em;
+$time-height: 2em;
+$grid-color: #dadce0;
+$grid-rows: 33;
+$calendar-template: $time-width 10px repeat(7, 1fr);
+$current-time-color: #ea4335;
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+:root {
+  font-family: 'Nunito',sans-serif;
+}
+body, html {
+  margin: 0;
+}
+
+.days {
+  font-family: 'Nunito',sans-serif;
+  background: #f3f2f1;
+  border-bottom: 2px solid #1c1c1c;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr min-content;
+}
+.days-title {
+  text-align: center;
+  grid-column: 1 / 8;
+  background: #0a0;
+  border-bottom: 2px solid #1c1c1c;
+}
+
+.day {
+  text-align: center;
+  border-left: 1px solid #1c1c1c;
+}
+// background: #f3f2f1;
+// display: grid;
+// place-content: center;
+// text-align: center;
+// grid-auto-flow: row;
+// grid-template-columns: 9;
+// grid-template-rows: 2em 2em, auto;
+// position: sticky;
+// top: 2em;
+// z-index: 10;

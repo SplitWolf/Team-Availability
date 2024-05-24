@@ -1,0 +1,6 @@
+<body>
+  <div class="days">
+    <div class="days-title">Apr-May 2024</div>
+    <div class="day" *ngFor="let day of day_names; let i=index" [ngClass]="i == 0 ? 'first' : ''">{{day}} {{day_numbers[i]}}</div>
+  </div>
+</body>

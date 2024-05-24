@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+:root {
+  font-family: "Nunito", sans-serif;
+}
+
+body, html {
+  margin: 0;
+}
+
+.days {
+  font-family: "Nunito", sans-serif;
+  background: #f3f2f1;
+  border-bottom: 2px solid #1c1c1c;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr min-content;
+}
+
+.days-title {
+  text-align: center;
+  grid-column: 1/8;
+  background: #0a0;
+  border-bottom: 2px solid #1c1c1c;
+}
+
+.day {
+  text-align: center;
+  border-left: 1px solid #1c1c1c;
+}
