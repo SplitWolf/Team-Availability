@@ -1,4 +1,4 @@
-# TeamAvailabilityCoordinator
+# Team Availability Coordinator
 
 Frontend for inputing data into the database of team availability to be used later to calaculate when the team is available
 
